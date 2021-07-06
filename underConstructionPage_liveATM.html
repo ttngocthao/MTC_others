@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mighty Cultured</title>
+     <link rel='icon' type="image/icon" href="/img/2021/LogoM.png">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;900&display=swap" rel="stylesheet">
+    <style>
+      * {
+        background-color: #222222;
+        font-family: "Barlow", sans-serif;
+        font-size: 16px;
+        line-height: 1.4;
+        box-sizing: border-box;
+        font-weight: 400;
+      }
+      .constructionPage h1 {
+        color: white;
+        font-size: 2.5rem;
+        max-width: 450px;
+        font-weight: 900;
+        line-height: 1;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+      }
+      .constructionPage .logo{
+        margin-bottom: 0rem;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 47px;
+      }
+      .constructionPage .logo img{
+        width: 100%;
+      }
+      .constructionPage h3{
+        color:#f43908;
+        font-size: 1.25rem;
+        font-weight:600;
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+      .constructionPage .p{
+        color: white;
+        max-width: 450px;
+      }
+      main{
+        max-width: 1200px;
+        margin:2.5rem auto;
+      }
+      .constructionPage .mainContent{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+      }
+       .constructionPage .photo figure{
+           margin:0;
+           max-width: 300px;
+         }
+      .constructionPage .photo figure img{
+           width: 100%;
+      }
+      .socialMedia{
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+      }
+      .socialMedia li{
+        list-style: none;
+        margin-right: 1rem;
+      }
+      .socialMedia .contactBtn{
+       
+        text-transform: uppercase;
+        border:2px solid #f43908;
+        padding: .1rem 1.5rem;
+        margin-right: 2rem;
+        border-radius: 5px;
+      }
+      .socialMedia .contactBtn a{
+         color: white;
+         text-decoration: none;
+         font-size: 1.5rem;
+         font-weight: 900;
+         letter-spacing: .1rem;
+      }
+      @media only screen and (min-width: 768px){
+        .constructionPage h1 {
+          font-size: 4rem;
+        }
+         .constructionPage h3{
+           font-size: 2rem;
+         }
+         .constructionPage .mainContent{
+           flex-direction: row-reverse;
+           align-items: flex-end;
+          justify-content: space-between;
+        
+         }
+          .constructionPage .info{
+            padding-right: 2.5rem;
+          }
+         .constructionPage .photo figure{          
+           max-width: 700px;
+           margin: 0 ;
+           min-width: 250px;
+         }
+      }
+    </style>
+  </head>
+  <body class="constructionPage">
+    <!-- <h1 >WE’RE BUILDING SOMETHING GREAT</h1> -->
+    <main>
+      <figure class="logo">
+        <img
+          src="/img/2021/LogoCore.svg"
+          alt="logo core"
+        />
+      </figure>
+      <section class="mainContent">
+        <section class="photo">
+          <figure>
+            <img alt='' src="/img/2021/construction.png"
+          </figure>
+        </section>
+        <section class="info">
+          <h1 >WE’RE BUILDING SOMETHING GREAT</h1>
+          <h3>Check back in<br/>
+              on the 1st August 2021.
+          </h3>
+          <div class="p">If you’d like to see samples of any of our work in the meantime please head on over to our Behance page or hit the contact button to have a chat about your next project.</div>
+        </section> 
+      </section>
+      <ul class="socialMedia">
+        <li class="contactBtn"><a href="mailto:team@mightycultured.co.uk">contact</a></li>
+        <li><a target="_blank" href="https://www.behance.net/mightycultured"><img alt='' src='/img/2021/beIcon.png'></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/mightycultured/"><img alt='' src='/img/2021/instagramIcon.png'></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/Mighty-Cultured-426372721081128"><img alt='' src='/img/2021/facebookIcon.png'></a></li>
+      </ul>  
+    </main>
+   
+  </body>
+</html>
